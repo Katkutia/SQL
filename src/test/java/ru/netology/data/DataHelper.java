@@ -1,4 +1,4 @@
-package ru.netology.data;
+package data;
 
 import com.github.javafaker.Faker;
 import lombok.AllArgsConstructor;
@@ -16,7 +16,7 @@ public class DataHelper {
 
     // метод, который возвращает объект с информацией об аутентификации
     public static AuthInfo getAuthInfo() {
-        return new AuthInfo("vasya", "qwerty");
+        return new AuthInfo("vasya", "qwerty123");
     }
 
     // метод, который умеет генерировать случайный логин
